@@ -10,7 +10,7 @@ Route::get('/forgotpassword', function(){
     return view('forgotpassword');
 })->name('forgotpassword');
 
-Route::get('/test', function () {
-    return 'Route works!';
-});
+Route::get('/register', function () {
+    return view('register');
+})->name('register');
 
